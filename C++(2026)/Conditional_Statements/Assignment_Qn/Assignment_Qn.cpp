@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    // Write a C++ program to get a number from the user and print whether it's positive, negative or zero.
+    //Qn:-1] Write a C++ program to get a number from the user and print whether it's positive, negative or zero.
     int num;
     cout << "Enter Number: ";
     cin >> num;
@@ -16,7 +16,7 @@ int main() {
         cout << "You entered zero" << endl;
     }
 
-    //Write a C++ program that takes a year from the user and print whether that year is a leap year or not.
+    //Qn:-2] Write a C++ program that takes a year from the user and print whether that year is a leap year or not.
     int year;
     cout << "Enter the Year: ";
     cin >> year;
@@ -27,5 +27,13 @@ int main() {
         cout << year << "<- It's not a Leap Year" << endl;
     }
 
+    //Qn:-3] What will be the value of x & y in the following program:
+    int a = 63, b = 36;
+
+    bool x = (a < b) ? true : false;
+    int y = (a > b) ? a : b;
+
+    cout << x << "," << y << endl;
+    
     return 0;
 }
