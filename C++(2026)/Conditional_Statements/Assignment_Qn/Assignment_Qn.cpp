@@ -3,46 +3,48 @@ using namespace std;
 
 int main() {
 
-    //Qn:-1] Write a C++ program to get a number from the user and print whether it's positive, negative or zero.
-    int num;
-    cout << "Enter Number: ";
-    cin >> num;
+    // //Qn:-1] Write a C++ program to get a number from the user and print whether it's positive, negative or zero.
+    // int num;
+    // cout << "Enter Number: ";
+    // cin >> num;
 
-    if(num > 0) {
-        cout << "It's a +ve number" << endl;
-    } else if(num < 0) {
-        cout << "It's a -ve number" << endl;
-    } else {
-        cout << "You entered zero" << endl;
-    }
+    // if(num > 0) {
+    //     cout << "It's a +ve number" << endl;
+    // } else if(num < 0) {
+    //     cout << "It's a -ve number" << endl;
+    // } else {
+    //     cout << "You entered zero" << endl;
+    // }
 
-    //Qn:-2] Write a C++ program that takes a year from the user and print whether that year is a leap year or not.
-    int year;
-    cout << "Enter the Year: ";
-    cin >> year;
+    // //Qn:-2] Write a C++ program that takes a year from the user and print whether that year is a leap year or not.
+    // int year;
+    // cout << "Enter the Year: ";
+    // cin >> year;
 
-    if((year % 4 == 0) && (year % 400 == 0)) {
-        cout << year << "<- It's a Leap Year" << endl;
-    } else {
-        cout << year << "<- It's not a Leap Year" << endl;
-    }
+    // if((year % 4 == 0) && (year % 400 == 0)) {
+    //     cout << year << "<- It's a Leap Year" << endl;
+    // } else {
+    //     cout << year << "<- It's not a Leap Year" << endl;
+    // }
 
-    //Qn:-3] What will be the value of x & y in the following program:
-    int e = 63, f = 36;
+    // //Qn:-3] What will be the value of x & y in the following program:
+    // int e = 63, f = 36;
 
-    bool x = (e < f) ? true : false;
-    int y = (e > f) ? e : f;
+    // bool x = (e < f) ? true : false;
+    // int y = (e > f) ? e : f;
 
-    cout << x << "," << y << endl;
+    // cout << x << "," << y << endl;
 
-    //Qn:-4] What’ll be the out put of the program: 
-    int m = 5;
+    // //Qn:-4] What’ll be the out put of the program: 
+    // int m = 5;
 
-    if ((++m * 5) <= 25) {
-        cout << "Hello \n";
-    } else {
-        cout << "Bye \n";
-    }
+    // if ((++m * 5) <= 25) {
+    //     cout << "Hello \n";
+    // } else {
+    //     cout << "Bye \n";
+    // }
+
+
     
     return 0;
 }
