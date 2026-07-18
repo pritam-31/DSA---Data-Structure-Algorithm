@@ -45,7 +45,7 @@ int main() {
     }
 
 
-    //Qn:- For any 3 digit number check whether it’s an Armstrong number or not.
+    //Qn:-5] For any 3 digit number check whether it’s an Armstrong number or not.
     int n;
     cout << "Enter a 3-Digit Number: ";
     cin >> n;
