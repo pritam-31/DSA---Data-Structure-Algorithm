@@ -27,6 +27,13 @@ int main() {
         cout << year << "<- It's not a Leap Year" << endl;
     }
 
+    //Qn:-3] What will be the value of x & y in the following program:
+    int e = 63, f = 36;
+
+    bool x = (e < f) ? true : false;
+    int y = (e > f) ? e : f;
+
+    cout << x << "," << y << endl;
 
     return 0;
 }
