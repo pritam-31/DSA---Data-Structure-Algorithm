@@ -35,5 +35,14 @@ int main() {
 
     cout << x << "," << y << endl;
 
+    //Qn:-4] What’ll be the out put of the program: 
+    int m = 5;
+
+    if ((++m * 5) <= 25) {
+        cout << "Hello \n";
+    } else {
+        cout << "Bye \n";
+    }
+    
     return 0;
 }
