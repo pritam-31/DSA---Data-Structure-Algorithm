@@ -3,11 +3,13 @@
 using namespace std;
 
 int main() {
+    int num;
 
-    for (int num = 1; num<=5; num++) {
+    for (num = 1; num<=5; num++) {
         cout << num << endl;
     }
-
+    
+    cout << "Last value of num = " << num << endl;
     return 0;
 }
 
