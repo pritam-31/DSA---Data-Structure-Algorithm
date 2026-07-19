@@ -45,7 +45,7 @@ int main() {
     }
 
 
-    //Qn:- For any 3 digit number check whether it’s an Armstrong number or not.
+    //Qn:-5] For any 3 digit number check whether it’s an Armstrong number or not.
     int n;
     cout << "Enter a 3-Digit Number: ";
     cin >> n;
@@ -63,9 +63,9 @@ int main() {
     int cubeSum = (dig1 * dig1 * dig1) + (dig2 * dig2 * dig2) + (dig3 * dig3 * dig3);
 
     if (cubeSum == n) {
-        cout << n << " is an Armstrong Number" << endl;
+        cout << n << " <- is an Armstrong Number" << endl;
     } else {
-        cout << n << " is not an Armstrong Number" << endl;
+        cout << n << " <- is not an Armstrong Number" << endl;
     }
     
     return 0;
