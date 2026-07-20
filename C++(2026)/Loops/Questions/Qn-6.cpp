@@ -1,3 +1,5 @@
+// Reverse a given number and print the result. 
+
 #include <iostream>
 using namespace std;
 
