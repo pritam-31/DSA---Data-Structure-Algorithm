@@ -3,27 +3,27 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    // int N = 58;
-    // bool prime = true;
+// int main() {
+//     int N = 58;
+//     bool prime = true;
 
-    // if (N <= 1)
-    //     prime = false;
+//     if (N <= 1)
+//         prime = false;
 
-    // for (int i = 2; i <= N / 2; i++) {
-    //     if (N % i == 0) {
-    //         prime = false;
-    //         break;
-    //     }
-    // }
+//     for (int i = 2; i <= N / 2; i++) {
+//         if (N % i == 0) {
+//             prime = false;
+//             break;
+//         }
+//     }
 
-    // if (prime) {
-    //     cout << "Prime";
-    // } else {
-    //     cout << "Not Prime";
-    // }
+//     if (prime) {
+//         cout << "Prime";
+//     } else {
+//         cout << "Not Prime";
+//     }
 
-    //or
+    //or (using short algorithm)
 
     int N = 17;
     int count = 0;
