@@ -1,3 +1,5 @@
+// For a +ve N, WAP that prints the first N Fibonacci numbers.
+
 #include <iostream>
 using namespace std;
 
