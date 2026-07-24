@@ -23,7 +23,7 @@ int main() {
     return 0;
 }
 
-or
+//or
 
 #include <iostream>
 #include <cmath>
