@@ -25,7 +25,7 @@ int main() {
         cout << endl;
     }
 
-    //2nd Pyramid 
+    //2nd Pyramid (inverted)
     //Outer Loop [n to 1] = i(rows)
     for(int i=n; i>=1; i--) {
         
