@@ -12,11 +12,12 @@ int main() {
         for(int j=1; j<=i; j++) {
 
             //0 or 1 printing
-            if((i+j) % 2 == 0) {
-                cout << 1;
-            } else {
-                cout << 0;
-            }  
+            // if((i+j) % 2 == 0) {
+            //     cout << 1;
+            // } else {
+            //     cout << 0;
+            // }
+            cout << ( ((i+j) % 2 == 0) ? 1 : 0 );
         }
         cout << endl;
     }
