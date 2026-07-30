@@ -1,3 +1,5 @@
+// Print the Palindromic Pattern with number.
+
 #include <iostream>
 using namespace std;
 
