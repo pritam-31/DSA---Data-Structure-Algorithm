@@ -5,7 +5,7 @@ void myFunc() {
     cout << "Hello \n";
 }
 
-void multiply(int a, int b) {
+int multiply(int a, int b) {
     int multi = a * b;
     cout << multi;
 }
