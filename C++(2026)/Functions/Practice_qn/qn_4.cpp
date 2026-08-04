@@ -1,4 +1,4 @@
-// WAP to find the Binomial Co-efficient for given 'n' & 'r'.
+// WAF to find the Binomial Co-efficient for given 'n' & 'r'.
 
 #include <iostream>
 using namespace std;
