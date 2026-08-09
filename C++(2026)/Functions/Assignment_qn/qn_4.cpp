@@ -4,7 +4,7 @@
 using namespace std;
 
 int largeNo(int a, int b, int c) {
-    if( ( a>=b ) && (a >= c) ) {
+    if( (a >= b) && (a >= c) ) {
         return a;
     } else if(b >= c) {
         return b;
@@ -14,7 +14,6 @@ int largeNo(int a, int b, int c) {
 }
 
 int main() {
-
     int a, b, c;
     cout << "Enter 3 numbers: ";
     cin >> a >> b >> c;
