@@ -1,3 +1,5 @@
+// variable and their memory address 
+
 #include <iostream>
 using namespace std;
 
