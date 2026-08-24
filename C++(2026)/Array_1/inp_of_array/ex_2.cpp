@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
     int arr[5];
-    int nn = sizeof(arr) / sizeof(int); // Length/ Size of Array
+    int n = sizeof(arr) / sizeof(int); // Length/ Size of Array
 
-    for (int i=0; i < nn; i++) {
+    for (int i=0; i < n; i++) {
         cin >> arr[i]; // Input of Array
     }
 
-    for (int i=0; i < nn; i++) {
+    for (int i=0; i < n; i++) {
         cout << arr[i] << ", "; // Output of Array
     }
     cout << endl;
