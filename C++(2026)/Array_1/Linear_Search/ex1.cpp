@@ -13,7 +13,7 @@ int Linear_Search(int *arr, int n, int key) {
 
 int main() {
     int arr[] = {10, 20, 30, 40, 50};
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n = sizeof(arr)/sizeof(int);
     int key = 40;
 
     int res = Linear_Search(arr, n, key);
