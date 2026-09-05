@@ -8,7 +8,7 @@ void maxSubarraySum(int *arr, int sz) {
         for(int end=start; end<sz; end++) {
 
             int currSum = 0;
-            for(int i=start; i<end; i++) {
+            for(int i=start; i<=end; i++) {
                 //cout << arr[i] << endl;
                 currSum += arr[i];
             }
