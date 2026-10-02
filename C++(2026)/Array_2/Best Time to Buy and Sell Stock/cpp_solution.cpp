@@ -5,7 +5,7 @@ using namespace std;
 
 int maxProfit(int *prices, int n) {
     int bestBuy[100000];  // total bestBuy prices length..
-    bestBuy[0] = INT_MAX;
+    bestBuy[0] = INT_MAX;  // +ve infinity
     cout << bestBuy[0] << ", ";
 
     // 1st step: har ek sell-price ke liye, hum uske "bestBuy-price calculated karege"
