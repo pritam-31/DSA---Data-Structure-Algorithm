@@ -1,0 +1,9 @@
+Question — Trapping Rain Water (LeetCode 42)
+____________________________________________
+
+Given an array heights[] where each element represents the height of a vertical bar of width 1, calculate how much rainwater can be trapped between the bars after raining.
+
+For example:
+int heights[8] = {4, 2, 0, 6, 3, 0, 2, 5};
+
+Find the total amount of trapped rainwater?
