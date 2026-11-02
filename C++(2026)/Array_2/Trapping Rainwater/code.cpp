@@ -1,7 +1,6 @@
 // Trapping Rain-water [ Leetcode - 42 no. pbm ]
 
 #include <iostream>
-
 using namespace std;
 
 int trap(int *heights, int n) {
